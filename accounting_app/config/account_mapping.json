@@ -1,0 +1,62 @@
+{
+  "account_types": {
+    "income": {
+      "debit": "Bank Account",
+      "credit": "To {account_name} A/c"
+    },
+    "expense": {
+      "debit": "{account_name} A/c",
+      "credit": "To Bank Account"
+    },
+    "transfer": {
+      "debit": "{account_name} A/c",
+      "credit": "To Bank Account"
+    },
+    "asset": {
+      "debit": "{account_name} A/c",
+      "credit": "To Bank Account"
+    },
+    "liability": {
+      "debit": "{account_name} A/c", 
+      "credit": "To Bank Account"
+    }
+  },
+  
+  "specific_accounts": {
+    "cash_withdrawal": {
+      "debit": "Cash A/c",
+      "credit": "To Bank Account"
+    },
+    "bank_transfer": {
+      "debit": "Bank Transfer A/c",
+      "credit": "To Bank Account"
+    },
+    "donation_income": {
+      "debit": "Bank Account",
+      "credit": "To Donation Income A/c"
+    },
+    "salary_income": {
+      "debit": "Bank Account", 
+      "credit": "To Salary Income A/c"
+    },
+    "food_expense": {
+      "debit": "Food Expense A/c",
+      "credit": "To Bank Account"
+    },
+    "transport_expense": {
+      "debit": "Transport Expense A/c",
+      "credit": "To Bank Account"
+    },
+    "office_expense": {
+      "debit": "Office Expense A/c",
+      "credit": "To Bank Account"
+    }
+  },
+  
+  "default_accounts": {
+    "bank": "Bank Account",
+    "cash": "Cash A/c",
+    "income": "Miscellaneous Income A/c",
+    "expense": "Miscellaneous Expense A/c"
+  }
+}

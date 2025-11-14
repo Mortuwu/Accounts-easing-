@@ -1,0 +1,77 @@
+{
+  "donation_income": {
+    "keywords": ["donation", "donated", "contribution", "charity", "grant", "gift"],
+    "account_name": "Donation Income",
+    "type": "income"
+  },
+  "salary_income": {
+    "keywords": ["salary", "payroll", "wages", "stipend", "compensation"],
+    "account_name": "Salary Income", 
+    "type": "income"
+  },
+  "interest_income": {
+    "keywords": ["interest", "dividend", "yield", "return"],
+    "account_name": "Interest Income",
+    "type": "income"
+  },
+  "refund_income": {
+    "keywords": ["refund", "reimbursement", "rebate"],
+    "account_name": "Refund Income",
+    "type": "income"
+  },
+  "transfer_in": {
+    "keywords": ["neft", "imps", "rtgs", "upi credit", "transfer from", "received"],
+    "account_name": "Bank Transfer",
+    "type": "income"
+  },
+  "food_expense": {
+    "keywords": ["restaurant", "cafe", "food", "snacks", "samosa", "meal", "lunch", "dinner", "breakfast", "tea", "coffee"],
+    "account_name": "Food Expense",
+    "type": "expense"
+  },
+  "transport_expense": {
+    "keywords": ["fuel", "petrol", "diesel", "bus", "train", "metro", "taxi", "uber", "ola", "travel", "transport"],
+    "account_name": "Transport Expense",
+    "type": "expense"
+  },
+  "office_expense": {
+    "keywords": ["printing", "stationery", "office", "supplies", "material", "equipment"],
+    "account_name": "Office Expense", 
+    "type": "expense"
+  },
+  "event_expense": {
+    "keywords": ["event", "function", "celebration", "party", "meeting", "conference"],
+    "account_name": "Event Expense",
+    "type": "expense"
+  },
+  "utility_expense": {
+    "keywords": ["electricity", "water", "internet", "mobile", "phone", "broadband", "utility"],
+    "account_name": "Utility Expense",
+    "type": "expense"
+  },
+  "cash_withdrawal": {
+    "keywords": ["atm", "cash", "withdrawal", "wdl", "cash withdraw"],
+    "account_name": "Cash",
+    "type": "transfer"
+  },
+  "bank_transfer": {
+    "keywords": ["transfer to", "neft", "imps", "rtgs", "upi to", "payment to"],
+    "account_name": "Bank Transfer",
+    "type": "transfer"
+  },
+  "investment": {
+    "keywords": ["investment", "mutual fund", "stock", "share", "fd", "fixed deposit"],
+    "account_name": "Investment",
+    "type": "asset"
+  },
+  "loan_payment": {
+    "keywords": ["loan", "emi", "repayment", "instalment"],
+    "account_name": "Loan Payment",
+    "type": "liability"
+  },
+  "miscellaneous": {
+    "keywords": [],
+    "account_name": "Miscellaneous",
+    "type": "expense"
+  }
+}
